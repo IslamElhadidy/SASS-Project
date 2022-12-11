@@ -1,0 +1,15 @@
+.main-button {
+    background-color: #e2494c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+        background-color: #b35759;
+    }
+    
+}

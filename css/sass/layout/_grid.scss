@@ -1,0 +1,38 @@
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-sizing: border-box ;
+
+
+}
+
+.container-slider {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box ;
+}
+
+.container-heading {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box ;
+
+}
+
+
+

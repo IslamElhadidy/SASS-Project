@@ -1,0 +1,24 @@
+
+
+.head-with-border {
+    position: relative;
+    h2 {
+        background-color: #e2494c;
+        color: white;
+        text-align: center;
+        margin: 40px auto;
+        width: 400px;
+        border-radius: 15px;
+        padding: 10px 15px;
+        &::before {
+            content: '';
+            width: 100%;
+            height: 1px;
+            background-color: gray;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            z-index: -1;
+        }
+    }
+}

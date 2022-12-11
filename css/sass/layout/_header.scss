@@ -1,0 +1,42 @@
+
+@import '../pages/global-page';
+
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    .logo { 
+        width: 30%;
+        h1{
+            margin-bottom: 0;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+        p {
+            color: rgb(108, 101, 101);
+        }
+    }
+    .navbar {
+        width: 70%;
+        height: 100%;
+        background-color: red;
+        border-radius: 15px;
+        display: flex;
+        gap: 70px;
+        li {
+            font-size: 18px;
+            text-align: center;
+            padding: 15px 5px;
+            
+
+            a {
+                color: white;
+                transition: 0.4s;
+                text-decoration: none;
+                &:hover {
+                    color: #DDD;
+                }
+            }
+        }
+    }
+}
